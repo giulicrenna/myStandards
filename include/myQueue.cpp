@@ -3,16 +3,16 @@
 #include <iostream>
 #include <vector>
 
-class CircleDataSet
+class mQueue
 {
-public:
+private:
     int size = 1;
     std::vector<std::string> data;
-    CircleDataSet(int l)
+    mQueue(int l)
     {
         size = l;
     }
-    // private:
+public:
     void startDataSet()
     {
         for (int cursor = size; cursor != 0; cursor--)
