@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "*.h": "cpp",
+        "*.cpp": "cpp",
+        "*.rmd": "markdown",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "iosfwd": "cpp"
+    }
+}

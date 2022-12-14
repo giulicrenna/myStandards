@@ -5,14 +5,13 @@
 
 class mQueue
 {
-private:
+public:
     int size = 1;
     std::vector<std::string> data;
     mQueue(int l)
     {
         size = l;
     }
-public:
     void startDataSet()
     {
         for (int cursor = size; cursor != 0; cursor--)
