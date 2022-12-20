@@ -4,6 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${default}",
+                "C:\\msys64\\ucrt64\\include",
                 "C:\\Users\\Giuliano Crenna\\Documents\\GitHub\\myStandards\\include"
             ],
             "defines": [
@@ -13,7 +14,8 @@
             ],
             "compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
             "cStandard": "gnu17",
-            "cppStandard": "gnu++17"
+            "cppStandard": "gnu++17",
+            "configurationProvider": "ms-vscode.makefile-tools"
         }
     ],
     "version": 4

@@ -1,0 +1,20 @@
+{
+    "name": "mStandars",
+    "version": "1.0.0",
+    "description": "Giuliano Crenna\n Custom standard algorithms and data structures.",
+    "keywords": "C++, Algorithms, Data structures",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/giulicrenna/myStandards.git"
+    },
+    "authors": [
+        {
+            "name": "Giuliano Crenna",
+            "email": "giulicrenna@gmail.com",
+            "url": "https://github.com/giulicrenna/"
+        }
+    ],
+    "license": "GPL-3.0-only",
+    "frameworks": "*",
+    "platforms": "*"
+}
