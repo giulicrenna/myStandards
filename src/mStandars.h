@@ -1,9 +1,12 @@
-#include "../include/jsonizer.hpp"
-#include "../include/myQueue.hpp"
-#include "../include/refactorData.hpp"
-#include "../include/binarySearch.hpp"
-#include "../include/isnotIn.hpp"
-#include "../include/strTointVal.hpp"
+#include <iostream>
+#include <vector>
+#include <map>
+#include <string>
+#include <stdio.h>
+#include <math.h>
+#include <fstream>
+#include <sstream>
+
 class mstd
 {
 public:
@@ -21,12 +24,12 @@ public:
         std::string toSJSON(std::vector<std::string> myVector);
     };
     //
-    static std::string refactor();
+    static std::string refactor(int time);
     static const int strToIntVal(std::string arr);
     static std::string subString(std::string str, int start, int end);
     static std::vector<std::string> strip(const char *str, char Token);
     static int indexOf(const char *str, char token);
-    static bool isnot_In(std::string val, std::vector<char> commonCharacters = comm);
+    static bool isnot_In(std::string val, std::vector<char> commonCharacters);
 };
 
 class mStructures
@@ -38,14 +41,13 @@ public:
     public:
         int size = 1;
         std::vector<std::string> data;
-        mQueue(int l)
-        {
-            size = l;
-        }
 
+        mQueue(int l);
         void startDataSet();
         std::vector<std::string> manageDataSet(const char *newEntry);
         bool isEmpty();
+        std::vector<std::string> giveDataSet();
+        void cleanDataSet();
     };
 };
 

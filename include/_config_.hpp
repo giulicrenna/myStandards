@@ -1,2 +1,0 @@
-#define WIN
-//#define UNIX

@@ -1,6 +1,6 @@
 {
     "name": "mStandars",
-    "version": "1.0.0",
+    "version": "1.0.5",
     "description": "Giuliano Crenna\n Custom standard algorithms and data structures.",
     "keywords": "C++, Algorithms, Data structures",
     "repository": {
